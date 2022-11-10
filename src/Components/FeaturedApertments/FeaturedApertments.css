@@ -1,0 +1,49 @@
+.padding-features {
+	padding-bottom: 0px;
+}
+.padding-text{
+	padding-bottom: 70px;
+}
+.cards {
+	margin-top: 0px;
+	margin-bottom: 200px;
+}
+.rainbow-text {
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	animation: rainbow-slide 8s linear infinite;
+	background-size: 300% 100%;
+	background-image: linear-gradient(
+		90deg,
+		#883908 15%,
+		#fc63bc 38%,
+		#e7da47 14%,
+		#56a036 28%,
+		#0aa6e9 30%,
+		#5a160f 43%,
+		#8f4805 20%
+	);
+	font-family: 'Karla', sans-serif;
+	font-size: 1.875rem;
+	line-height: 2.25rem;
+	font-weight: 800;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+@keyframes rainbow-slide {
+	0% {
+		background-position: 0 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	to {
+		background-position: 0 50%;
+	}
+}

@@ -1,0 +1,55 @@
+.padding-categories {
+	padding-bottom: 40px;
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.rent {
+	color: #a10808;
+}
+.design-box:hover {
+	border-radius: 4;
+	-webkit-transition: all 3s ease-out;
+	transition: all 1s ease-in-out;
+}
+
+.rainbow-text {
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	animation: rainbow-slide 8s linear infinite;
+	background-size: 300% 100%;
+	background-image: linear-gradient(
+		90deg,
+		#964818 15%,
+		#fc63bc 38%,
+		#e7da47 14%,
+		#56a036 28%,
+		#0aa6e9 30%,
+		#5a160f 43%,
+		#dd832f 20%
+	);
+	font-family: 'Karla', sans-serif;
+	/* font-size: 1.875rem; */
+	/* line-height: 2.25rem;
+  font-weight: 800; */
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+@keyframes rainbow-slide {
+	0% {
+		background-position: 0 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	to {
+		background-position: 0 50%;
+	}
+}
