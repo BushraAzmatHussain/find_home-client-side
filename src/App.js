@@ -15,6 +15,7 @@ import Sell from './Components/Sell/Sell';
 import RequireAuth from './Components/Authentication/SignIn/RequireAuth';
 import RentDhaka from './Components/Rent/RentDhaka';
 import SellDhaka from './Components/Sell/SellDhaka';
+import Home from './Components/Home/Home/Home/Home';
 
 function App() {
   return (
@@ -22,8 +23,8 @@ function App() {
       <Header></Header>
       
       <Routes>
-        <Route path='/' element={<Banner></Banner>}></Route>
-        <Route path='/home' element={<Banner></Banner>}></Route>
+        <Route path='/*' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
         {/* <Route path='/about' element={<About></About>}></Route> */}
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/signIn' element={<SignIn></SignIn>}></Route>
