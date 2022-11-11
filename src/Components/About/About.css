@@ -100,14 +100,14 @@
 		padding: 20px;
 	}
 } */
-.about-design{
+.about-design {
 	height: 0px;
 	/* transform: rotateX('20px'); */
-	
-	
-	
 }
-.padding-about{
+/* .about-text{
+	font-weight: 800;
+} */
+.padding-about {
 	padding-bottom: 80px;
 	padding-top: 80px;
 	/* margin-bottom: 100px; */
