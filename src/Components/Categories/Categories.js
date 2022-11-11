@@ -2,13 +2,13 @@ import React from 'react';
 import './Categories.css';
 const Categories = () => {
 	return (
-		<div className='container mx-auto m-8 pt-4 pl-4 pr-4 pb-0  sm:px-0 bg-slate-50'>
-			<h1 className='text-center padding-categories text-3xl font-bold  drop-shadow-2xl rainbow-text'>
+		<div className='container mx-auto m-8 sm:px-0'>
+			<h1 className='text-center padding-categories  font-bold  drop-shadow-2xl rainbow-text'>
 				Our Special Categories
 			</h1>
 			<div className='flex flex-wrap'>
-				<div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3 px-2 m-4'>
-					<div className='w-full h-full bg-grey shadow-lg  text-center p-2 border-2 hover:bg-gray-300 design-box'>
+				<div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3 pl-4 pr-4'>
+					<div className='w-full h-full  shadow-lg  text-center p-2 border-2 hover:bg-gray-300 design-box'>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
 							viewBox='0 0 24 24'
@@ -22,17 +22,17 @@ const Categories = () => {
 							/>
 						</svg>
 
-						<h3 className='text-center p-4 text-xl font-bold text-orange-700 drop-shadow-2xl hover:text-cyan-700 '>
+						<h3 className='text-center p-4 text-2xl font-bold text-orange-700 drop-shadow-2xl hover:text-cyan-700 '>
 							Find Apartment
 						</h3>
-						<p className='text-center p-4 font-bold text-cyan-700 drop-shadow-2xl hover:text-orange-700 '>
+						<p className='text-center text-xl p-4 font-bold text-cyan-700 drop-shadow-2xl hover:text-orange-700 '>
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Possimus eveniet eum earum reprehenderit
 						</p>
 					</div>
 				</div>
 
-				<div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/4 px-2 m-4'>
+				<div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3 pl-4 pr-4'>
 					<div className='w-full h-full bg-grey shadow-lg  text-center p-2 border-2 hover:bg-gray-300 design-box'>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
@@ -48,17 +48,17 @@ const Categories = () => {
 							/>
 						</svg>
 
-						<h3 className='text-center p-4 text-xl font-bold text-orange-700 drop-shadow-2xl hover:text-cyan-700 '>
+						<h3 className='text-center p-4 text-2xl font-bold text-orange-700 drop-shadow-2xl hover:text-cyan-700 '>
 							Rent A Home
 						</h3>
-						<p className='text-center p-4 font-bold text-cyan-700 drop-shadow-2xl hover:text-orange-700 '>
+						<p className='text-center text-xl p-4 font-bold text-cyan-700 drop-shadow-2xl hover:text-orange-700 '>
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Possimus eveniet eum earum reprehenderit
 						</p>
 					</div>
 				</div>
 
-				<div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3  px-2 m-4'>
+				<div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3 pl-4 pr-4'>
 					<div className='w-full h-full bg-grey shadow-lg  text-center p-2 border-2 hover:bg-gray-300 design-box'>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
@@ -70,10 +70,10 @@ const Categories = () => {
 							<path d='M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z' />
 						</svg>
 
-						<h3 className='text-center p-4 text-xl font-bold text-orange-700 drop-shadow-2xl hover:text-cyan-700 '>
+						<h3 className='text-center p-4 text-2xl font-bold text-orange-700 drop-shadow-2xl hover:text-cyan-700 '>
 							Sell A Home
 						</h3>
-						<p className='text-center p-4 font-bold text-cyan-700 drop-shadow-2xl hover:text-orange-700 '>
+						<p className='text-center text-xl p-4 font-bold text-cyan-700 drop-shadow-2xl hover:text-orange-700 '>
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Possimus eveniet eum earum reprehenderit
 						</p>

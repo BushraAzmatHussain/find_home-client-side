@@ -16,13 +16,13 @@ const About = () => {
 					</div>
 					<div className='w-full md:w-5/12 ml-auto mr-auto px-4'>
 						<div className='md:pr-12'>
-							<div className='text-pink-600 p-2 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-400'>
+							{/* <div className='text-pink-600 p-2 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-400'>
 								<HiOutlineDocumentDuplicate></HiOutlineDocumentDuplicate>
-							</div>
-							<h3 className='text-3xl font-bold rainbow-text'>
+							</div> */}
+							<h3 className='font-bolder rainbow-text'>
 								About Us
 							</h3>
-							<p className='mt-4 text-lg leading-relaxed text-gray-600'>
+							<p className='mt-4 text-xl leading-relaxed text-gray-600 pt-4'>
 								Find your dream Apartments For Rent! The Best
 								Resources. Always Facts. Privacy Friendly.
 								Unlimited Access. Results & Answers. Completely
