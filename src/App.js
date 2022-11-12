@@ -16,6 +16,7 @@ import SellDhaka from './Components/Sell/SellDhaka';
 import Home from './Components/Home/Home/Home/Home';
 import Detail from './Components/Rent/Detail';
 import Review from './Components/Review/Review';
+
 import WriteReview from './Components/Review/WriteReview';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path='/detail' element={<Detail></Detail>}></Route>
         <Route path='/review' element={<Review></Review>}></Route>
         <Route path='/writeReview' element={<WriteReview></WriteReview>}></Route>
+        <Route path='/contact' element={<Contact></Contact>}></Route>
         
         <Route path='/featuredApertments' element={<FeaturedApertments></FeaturedApertments>}></Route>
         <Route path='/footer' element={<Footer></Footer>}></Route>

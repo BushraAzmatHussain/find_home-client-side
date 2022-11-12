@@ -1,9 +1,11 @@
 import React from 'react';
+import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
 const Review = () => {
     return (
         <div className='2xl:pl-52 lg:pl-52  2xl:pr-52 lg:pr-52 2xl:ml-52 2xl:mr-52 pb-16'>
             <h2 className='text-center text-2xl font-bold'>Recommendations</h2>
+            
             <hr className='w-32 text-black'></hr>
             <div className="carousel h-72 ">
   <div id="item1" className="carousel-item relative w-full card">
@@ -16,7 +18,16 @@ const Review = () => {
                                     <p className='text-xl font-bold' >Amanda Smith</p>
                                     <p className='text-gray-400 text-sm' >Nov 11,2022</p>
                                 </div>
-                            </div>
+                            
+                            <p className=' px-2 pb-2 p-1 text-lg text-yellow-400 flex justify-center pt-2'>
+                    <AiFillStar></AiFillStar> 
+                    <AiFillStar ></AiFillStar> 
+                    <AiFillStar></AiFillStar>
+                    <AiOutlineStar></AiOutlineStar>
+                    <AiOutlineStar></AiOutlineStar>
+                    </p>
+                    </div>
+
                             <div  className='pt-2'>
                                 <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae nobis fugit, ad id voluptate laudantium! Nemo eius optio eligendi!</p>
                             </div>
@@ -37,6 +48,13 @@ const Review = () => {
                                     <p className='text-gray-400 text-sm' >Nov 11,2022</p>
                                 </div>
                             </div>
+                            <p className=' px-2 pb-2 p-1 text-lg text-yellow-400 flex justify-center pt-2'>
+                    <AiFillStar></AiFillStar> 
+                    <AiFillStar ></AiFillStar> 
+                    <AiFillStar></AiFillStar>
+                    <AiOutlineStar></AiOutlineStar>
+                    <AiOutlineStar></AiOutlineStar>
+                    </p>
                             <div  className='pt-2'>
                                 <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae nobis fugit, ad id voluptate laudantium! Nemo eius optio eligendi!</p>
                             </div>
@@ -56,7 +74,18 @@ const Review = () => {
                                     <p className='text-xl font-bold' >Amanda Smith</p>
                                     <p className='text-gray-400 text-sm' >Nov 11,2022</p>
                                 </div>
+                                <p className=' px-2 pb-2 p-1 text-lg text-yellow-400 flex justify-center pt-2'>
+                    <AiFillStar></AiFillStar> 
+                    <AiFillStar ></AiFillStar> 
+                    <AiFillStar></AiFillStar>
+                    <AiOutlineStar></AiOutlineStar>
+                    <AiOutlineStar></AiOutlineStar>
+                    </p>
+                                
                             </div>
+                          <div>
+                            
+                          </div>
                             <div  className='pt-2'>
                                 <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae nobis fugit, ad id voluptate laudantium! Nemo eius optio eligendi!</p>
                             </div>
@@ -77,6 +106,13 @@ const Review = () => {
                                     <p className='text-gray-400 text-sm' >Nov 11,2022</p>
                                 </div>
                             </div>
+                            <p className=' px-2 pb-2 p-1 text-lg text-yellow-400 flex justify-center pt-2'>
+                    <AiFillStar></AiFillStar> 
+                    <AiFillStar ></AiFillStar> 
+                    <AiFillStar></AiFillStar>
+                    <AiOutlineStar></AiOutlineStar>
+                    <AiOutlineStar></AiOutlineStar>
+                    </p>
                             <div  className='pt-2'>
                                 <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae nobis fugit, ad id voluptate laudantium! Nemo eius optio eligendi!</p>
                             </div>
