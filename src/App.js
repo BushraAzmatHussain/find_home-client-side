@@ -6,6 +6,8 @@ import About from './Components/About/About';
 import Categories from './Components/Categories/Categories';
 import FeaturedApertments from './Components/FeaturedApertments/FeaturedApertments';
 import Footer from './Components/Footer/Footer';
+import ChooseUs from './Components/ChooseUs/ChooseUs';
+import Video from './Components/Video/Video';
 import Contact from './Components/Contact/Contact';
 import Header from './Components/Home/Home/Header/Header';
 import Rent from './Components/Rent/Rent';
@@ -27,7 +29,6 @@ function App() {
       <Routes>
         <Route path='/*' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
-        {/* <Route path='/about' element={<About></About>}></Route> */}
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/signIn' element={<SignIn></SignIn>}></Route>
         <Route path='/signUp' element={<SignUp></SignUp>}></Route>
@@ -37,6 +38,8 @@ function App() {
         <Route path='/review' element={<Review></Review>}></Route>
         <Route path='/writeReview' element={<WriteReview></WriteReview>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
+        <Route path='/chooseUs' element={<ChooseUs></ChooseUs>}></Route>
+        <Route path='/video' element={<Video></Video>}></Route>
         
         <Route path='/featuredApertments' element={<FeaturedApertments></FeaturedApertments>}></Route>
         <Route path='/footer' element={<Footer></Footer>}></Route>

@@ -12,7 +12,7 @@ const SellDhaka = () => {
             <div className="card card-side bg-base-100 shadow-xl">
                     <figure><img src="https://placeimg.com/200/280/arch" alt="House"/></figure>
                     <div className="card-body">
-                        <h2 className="card-title font-bold">Semi Furnished Apertment</h2>
+                        <h2 className="card-title font-bold">Semi Furnished Apartment</h2>
                         <p className='font-bold text-emerald-400 text-lg pb-1 pt-1'>12,000 BDT/<small className='text-gray-400'>Month</small></p>
                         <p className='inline-flex' > <MdOutlineLocationOn className='text-2xl text-blue-300 font-bold'></MdOutlineLocationOn> Savar, Dhaka</p>
                         <p className='flex px-2 pb-2 p-1 text-lg text-yellow-400'>
