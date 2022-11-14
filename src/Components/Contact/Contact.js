@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 import React from 'react';
 import './Contact.css';
 
@@ -133,4 +130,3 @@ const Contact = () => {
 };
 
 export default Contact;
->>>>>>> 8306378667a6628613bd711c683443c48ba69e17
