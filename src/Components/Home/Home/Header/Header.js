@@ -12,15 +12,6 @@ const Header = () => {
   const logout = () =>{
     signOut(auth);
   }
-
-    // const menuItems = <>
-    // <li><Link to="/home">Home</Link></li>
-    // <li><Link to="/">Dashboard</Link></li>
-    // <li><Link to="/rent">Rent</Link></li>
-    // <li><Link to="/sell">Sell</Link></li>
-    // <li><Link to="/contact">Contact</Link></li>
-    // {/* <li>{user ? <button className="menu menu-horizontal text-amber-400 font-bold font-mono text-xl p-3" onClick={logout} >Sign Out</button>  : <Link to="/signIn">Sign In</Link>}</li> */}
-    // </>
     return (
 
 
@@ -42,7 +33,7 @@ const Header = () => {
           <li><Link to="/sell" className='text-amber-400 font-bold font-mono text-xl'>Sell</Link></li>
           </ul>
         </li>
-        <li><Link to="/" className='text-amber-400 font-bold font-mono text-xl'>Dashboard</Link></li>
+        <li><Link to="/dashboard" className='text-amber-400 font-bold font-mono text-xl'>Dashboard</Link></li>
         <li><Link to="/contact" className='text-amber-400 font-bold font-mono text-xl'>Contact</Link></li>
         <li>{user ? <button className="menu menu-horizontal text-amber-400 font-bold font-mono text-xl p-3" onClick={logout} >Sign Out</button>  : <Link to="/signIn" className='text-amber-400 font-bold font-mono text-xl'>Sign In</Link>}</li>
       </ul>
@@ -62,7 +53,7 @@ const Header = () => {
           <li><Link to="/sell" className='text-amber-400 font-bold font-mono text-xl'>Sell</Link></li>
         </ul>
       </li>
-      <li><Link to="/" className='text-amber-400 font-bold font-mono text-xl'>Dashboard</Link></li>
+      <li><Link to="/dashboard" className='text-amber-400 font-bold font-mono text-xl'>Dashboard</Link></li>
         <li><Link to="/contact" className='text-amber-400 font-bold font-mono text-xl'>Contact</Link></li>
         <li>{user ? <button className="menu menu-horizontal text-amber-400 font-bold font-mono text-xl p-3" onClick={logout} >Sign Out</button>  : <Link className=' text-amber-400 font-bold font-mono text-xl pr-4 pl-4' to="/signIn">Sign In</Link>}</li>
       

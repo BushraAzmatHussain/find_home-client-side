@@ -8,7 +8,10 @@ import { Link } from 'react-router-dom';
 
 const SellDhaka = () => {
     return (
-        <div className='grid 2xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1  gap-8 p-8'>
+        <div>
+            <h1 className='text-center mx-10 font-bold font-mono text-4xl mt-10'>Explore Dhaka </h1> 
+        <hr className='w-20 mb-20'></hr>
+            <div className='grid 2xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1  gap-8 p-8'>
             <div className="card card-side bg-base-100 shadow-xl">
                     <figure><img src="https://placeimg.com/200/280/arch" alt="House"/></figure>
                     <div className="card-body">
@@ -39,7 +42,7 @@ const SellDhaka = () => {
             
             </div>
                         <div className="card-actions justify-start">
-                                <Link to='/' className="btn btn-success font-sans  hover:bg-slate-900 hover:text-white">See Details</Link>
+                                <Link to='/detail' className="btn btn-success font-sans  hover:bg-slate-900 hover:text-white">See Details</Link>
                         </div>
                 </div>
             </div>
@@ -147,6 +150,7 @@ const SellDhaka = () => {
             </div>
 
         
+        </div>
         </div>
     );
 };

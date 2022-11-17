@@ -10,6 +10,8 @@ import { BiBed } from 'react-icons/bi';
 const RentDhaka = () => {
     return (
         <div className='p-10'>
+            <h1 className='text-center mx-10 font-bold font-mono text-4xl mt-10'>Explore Dhaka </h1> 
+        <hr className='w-20 mb-20'></hr>
             <div className='grid 2xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 justify-between'>
             <div className="card w-96 bg-base-100 shadow-xl">
             <figure><img src="https://placeimg.com/400/225/arch" alt="Houses" /></figure>

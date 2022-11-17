@@ -20,11 +20,16 @@ import Detail from './Components/Rent/Detail';
 import Review from './Components/Review/Review';
 
 import WriteReview from './Components/Review/WriteReview';
+import Dashboard from './Components/Dashboard/Dashboard';
+import Featured_01 from './Components/FeaturedApertments/Featured_01';
+import Featured_02 from './Components/FeaturedApertments/Featured_02';
+import Featured_03 from './Components/FeaturedApertments/Featured_03';
 
 function App() {
   return (
     <div>
       <Header></Header>
+      
       
       <Routes>
         <Route path='/*' element={<Home></Home>}></Route>
@@ -39,10 +44,14 @@ function App() {
         <Route path='/writeReview' element={<WriteReview></WriteReview>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/chooseUs' element={<ChooseUs></ChooseUs>}></Route>
+        <Route path='/featured_01' element={<Featured_01></Featured_01>}></Route>
+        <Route path='/featured_02' element={<Featured_02></Featured_02>}></Route>
+        <Route path='/featured_03' element={<Featured_03></Featured_03>}></Route>
+        <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
         <Route path='/video' element={<Video></Video>}></Route>
         
         <Route path='/featuredApertments' element={<FeaturedApertments></FeaturedApertments>}></Route>
-        <Route path='/footer' element={<Footer></Footer>}></Route>
+        {/* <Route path='/footer' element={<Footer></Footer>}></Route> */}
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/rent' element={
           <RequireAuth>
@@ -66,6 +75,7 @@ function App() {
         }></Route>
 
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

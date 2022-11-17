@@ -8,7 +8,8 @@ const Rent = () => {
     return (
       
        <div>
-        <h1 className='text-center mx-10 font-bold font-mono text-4xl mt-10'>RENT </h1> 
+        <h1 className='text-center mx-10 font-bold font-mono text-4xl mt-10'>Explore Rent </h1> 
+        <hr className='w-20'></hr>
       <div className='container 2xl:ml-16 lg:ml-16 p-16 grid 2xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1'>
         
         <div className='relative 2xl:pr-10 2xl:pl-10 mt-16'>

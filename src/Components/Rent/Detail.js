@@ -11,7 +11,7 @@ import WriteReview from '../Review/WriteReview';
 
 const Detail = () => {
     return (
-        <div>
+        
             <div className='p-10'>
             <h1 className='text-5xl pl-12' >Mordern Furnished Apertment</h1>
             <div className="carousel 2xl:w-1/2 lg:w-1/2 md:w-full sm:w-full  h-96 ml-12 mt-12 mb-16">
@@ -134,8 +134,7 @@ const Detail = () => {
         
     </div>
 
-    <Footer></Footer>
-        </div>
+    
     );
 };
 

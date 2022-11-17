@@ -19,7 +19,6 @@ const Home = () => {
             <Categories></Categories>
             <FeaturedApertments></FeaturedApertments>
             <Review></Review>
-            <Footer></Footer>
         </div>
     );
 };
